@@ -84,8 +84,11 @@ margin: 0 auto;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--footer-text-color);
+  max-width: 696px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .orderbutton {
@@ -100,6 +103,7 @@ margin: 0 auto;
   font-weight: 700;
   font-family: 'Roboto';
   font-style: normal;
+  margin: 0 auto;
 }
 .sectionheader {
   font-size: 36px;
