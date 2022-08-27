@@ -73,7 +73,8 @@ margin: 0 auto;
 
 .home-buttonfield {
   background-color: var(--addition-bg-color);
-  border-radius: 0px;
+  /* border-radius: 0px; */
+  height: 600px;
 }
 .welcome {
   font-style: normal;
