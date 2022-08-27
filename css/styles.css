@@ -16,6 +16,9 @@ body {
   font-size: 14px;
   width: 1600px;
 }
+li {
+  list-style: none;
+}
 .container {
   max-width: 1200px;
 /* technical borderline  */
@@ -160,12 +163,11 @@ margin: 0 auto;
 .studio {
   color: var(--footer-text-color);
 }
-.contakt-links {
-  list-decoration: none;}
+
 .contact-links .link {
   color: var(--ft-contact-color);
   line-height: 1.71;
-  text-decoration: none;
+  
 }
 .contact-links .link:hover,
 .contact-links .link:focus {
