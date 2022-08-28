@@ -13,27 +13,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
   </head>
-
 <body>
-  <header>
-    <div class="container">
-      <nav>
-        <a class="link-general" href="index.html"><span class="logo">Web</span>Studio</a>
-        <ul class="navi-links">
-          <li><a class="link" href="index.html">Agencja</a></li>
-          <li><a class="link tablink" href="portfolio.html">Portfolio</a></li>
-          <li><a class="link" href="#">Kontakt</a></li>
+  <header class="header">
+      <div class="container">
+        <nav class="navi">
+          <a class="link-general" href="index.html"><span class="logo">Web</span>Studio</a>
+          <ul class="navi-links">
+            <li><a class="link tablink" href="index.html">Agencja</a></li>
+            <li><a class="link" href="portfolio.html">Portfolio</a></li>
+            <li><a class="link" href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="link" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <ul class="contact">
-        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link" href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
-    </div>
-  </header>
-  </header>
-  <main>
-    <section>
+      </div>
+    </header>
+   <main>
+    <section class="portfolio">
       <div class="container">
         <ul>
           <li class="filter-buttons">
@@ -44,9 +42,9 @@
             <button class="button" type="button">Marketing</button>
           </li>
         </ul>
-        <ul>
+        <ul class="creations">
           <li>
-            <figure>
+            <figure class="figure">
               <img src=images/img01-patternwbs.jpg alt="specjalistyczna strona internetowa" width="370" height="294" />
               <figcaption>
                 <h4 class="name-of-project">Technocrack</h4>
@@ -55,7 +53,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="figure">
               <img src="images/img02-patterndesign.jpg" alt="grafika sportowa" width="370" height="294" />
               <figcaption>
                 <h4 class="name-of-project">Grafika New Orlean vs Golden Star</h4>
@@ -64,7 +62,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="figure">
               <img src="images/img03seafoodapp.jpg" alt="aplikacja dla restauracji" width="370" height="294" />
               <figcaption>
                 <h4 class="name-of-project">Restauracja Seafood</h4>
@@ -73,7 +71,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="figure">
               <img src="images/img04headphonesmktg.jpg" alt="marketing telfoniczny" width="370" height="294" />
               <figcaption>
                 <h4 class="name-of-project">Projekt Prime</h4>
@@ -82,7 +80,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="figure">
               <img src="images/img05boxesapp.jpg" alt="aplikacja dla usługodawców" width="370" height="294" />
               <figcaption>
                 <h4 class="name-of-project">Projekt Boxes</h4>
@@ -91,7 +89,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="figure">
               <img src="images/img06monitorwbs.jpg" alt="strona internetowe dla biznesu" width="370" height="294" />
               <figcaption>
                 <h4 class="name-of-project">Inspiration has no Borders</h4>
@@ -100,7 +98,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="figure">
               <img src="images/img07bookdesign.jpg" alt="oprawa graficzna wydawnictw" width="370" height="294" />
               <figcaption>
                 <h4 class="name-of-project">Magazyn Limited Edition</h4>
@@ -109,7 +107,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="figure">
               <img src="images/img08projektmktg.jpg" alt="materiały reklamowe" width="370" height="294" />
               <figcaption>
                 <h4 class="name-of-project">Projekt LAB</h4>
@@ -118,7 +116,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="figure">
               <img src="images/img09laptopapp.jpg" alt="aplikacja dla biznesu" width="370" height="294" />
               <figcaption>
                 <h4 class="name-of-project">Growing Business</h4>
@@ -131,23 +129,24 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="container">
-      <h3>
-        <a class="link-general" href="index.html"><span class="logo">Web</span><span class="studio">Studio</span></a>
-      </h3>
-      <address class="address">
-        <ul class="contact-links">
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li>
-            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a class="link" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </address>
-    </div>
-  </footer>
+      <div class="container">
+        <div class="ft-container">
+          <h3>
+            <a class="link-general" href="index.html"><span class="logo">Web</span><span class="studio">Studio</span></a>
+          </h3>
+          <address class="address">
+            <ul class="contact-links">
+              <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li>
+                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li>
+                <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+    </footer>
 </body>
-
 </html>
