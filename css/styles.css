@@ -18,7 +18,7 @@ body {
 li {
   list-style: none;
 }
-ul {
+ul, p, figure, h1-h4  {
   padding: 0;
   margin: 0;
 }
@@ -32,6 +32,12 @@ figure {
   border: 1px solid red;
   margin: 0 auto;
   display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .header {
   border-bottom: 1px solid rgba(236, 236, 236, 1)
