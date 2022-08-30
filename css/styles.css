@@ -31,7 +31,7 @@ ul, p, figure, h1, h2, h3, h4 {
 .container {
   max-width: 1200px;
   /* technical borderline   */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
   display: flex;
   padding-left: 15px;
@@ -106,8 +106,14 @@ padding: 23px;
 .contact .link {
   color: var(--alt-text-color);
   margin: 25px;
-
 }
+
+/* .contact .link:not(:last-chid) {
+  margin: 50px;
+}
+.contact .link (:last-chid) {
+  margin-right: 12px;
+} */
 .contact .link:hover,
 .contact .link:focus {
   color: var(--active-link-color);
@@ -217,6 +223,13 @@ flex-direction: column;
   line-height: 1.875;
   text-align: center;
   padding: 30px;
+  background-color: var(--footer-text-color);
+  
+}
+.silhouette {
+  margin: auto;
+  display: flex;
+  flex-flow: column;
 }
 .name-coworker {
   font-weight: 500;
@@ -264,9 +277,10 @@ flex-direction: column;
 .creations {
  
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
-  /* gap: 30px; */
+  gap: 30px;
+  padding: 0;
 }
 /* .nth-creation { */
   /* margin: 0 auto; */
@@ -276,7 +290,7 @@ flex-direction: column;
   margin: auto;
   display: flex;
   flex-flow: column;
-  flex-basis: calc(100% / 3);
+  /* flex-basis: calc(100% - 90px / 3); */
   /* padding-top: 15px;
   padding-bottom:15px; */
   /* border: 1px dotted yellow; */
@@ -309,11 +323,14 @@ flex-direction: column;
   padding-bottom: 60px;
 
 }
-.ft-container {
-  max-width: 264px;
-}
+/* .ft-container .link-general{
+  padding-bottom: 20px;
+} */
 .studio {
   color: var(--footer-text-color);
+}
+.address{
+  padding-top:20px;
 }
 
 .contact-links .link {
